@@ -1,5 +1,7 @@
 name: hello
 on: [push]
 jobs:
-  steps:
-    - run: echo "Hello"
+  check-bats-version:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "Hello"

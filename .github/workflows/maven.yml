@@ -1,0 +1,7 @@
+name: maven-compile
+on: [push]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-22.04
+    steps:
+      - run: echo "Nothing for now"
