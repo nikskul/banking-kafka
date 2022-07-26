@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.nikskul</groupId>
     <artifactId>kafka-banking</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>kafka-banking</name>
-    <description>kafka-banking</description>
+    <version>0.0.1</version>
+    <name>kafka-banking-deposit-service</name>
+    <description>Microservice for client deposit operation</description>
     <properties>
         <java.version>18</java.version>
     </properties>
