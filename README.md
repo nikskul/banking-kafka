@@ -1,3 +1,3 @@
-#Banking application with kafka
+# Banking application with kafka
 ## Architecture
 ![Application Architecture](img/architecture.jpg)
