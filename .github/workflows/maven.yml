@@ -4,5 +4,14 @@ jobs:
   maven-compile:
     runs-on: ubuntu-22.04
     steps:
-      - name: Run maven compile
-      - run: ./mvnw compile
+      - name: Checkout
+        uses: action/checkout@v3
+
+      - name: Set up Java 18
+        uses: action/setup-java@v3
+        with:
+          java-version: '18'
+          cache: java
+
+      - name: Build with Maven
+        run: mvn --batch-mode --update-snapshots package
