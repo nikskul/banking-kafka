@@ -1,0 +1,5 @@
+name: hello
+on: [push]
+jobs:
+  steps:
+    - run: echo "Hello"
