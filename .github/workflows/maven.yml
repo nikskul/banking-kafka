@@ -1,7 +1,8 @@
 name: maven-compile
 on: [push]
 jobs:
-  check-bats-version:
+  maven-compile:
     runs-on: ubuntu-22.04
     steps:
-      - run: echo "Nothing for now"
+      - name: Run maven compile
+      - run: ./mvnw compile
