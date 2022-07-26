@@ -1,7 +1,0 @@
-name: hello
-on: [push]
-jobs:
-  echo-hello:
-    runs-on: ubuntu-22.04
-    steps:
-      - run: echo "Hello"
